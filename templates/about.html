@@ -1,0 +1,60 @@
+{% extends "base.html" %} {% block title %}About - First Aid Assistant{%
+endblock %} {% block content %}
+<div class="container my-5">
+  <div class="text-center">
+    <h1 class="mb-4">About First Aid Assistant</h1>
+    <p class="lead">
+      Your quick-access guide for essential first aid responses during
+      emergencies.
+    </p>
+  </div>
+
+  <div class="row justify-content-center mt-5">
+    <div class="col-md-8">
+      <div class="card shadow-lg rounded-4 border-0">
+        <div class="card-body p-4">
+          <h5 class="card-title text-primary">Overview</h5>
+          <p class="card-text">
+            The <strong>First Aid Assistant</strong> is a research-based expert
+            system designed to suggest emergency actions based on incident
+            descriptions such as choking, bleeding, and burns. It leverages a
+            rule-based engine developed in Python to provide accurate, immediate
+            advice to untrained individuals in critical moments.
+          </p>
+
+          <h5 class="card-title text-primary mt-4">Research and Development</h5>
+          <p class="card-text">
+            This system was developed as part of a project for the
+            <strong>Bachelor of Science in Computer Science, Information Systems</strong> at
+            <strong>New Era University</strong>. The project was carried out by
+            <strong>Richmond A. Baltazar</strong> and
+            <strong>Erlyn Queen V. De Leon</strong>. The development aimed to explore the
+            practical application of AI in public health and emergency
+            preparedness.
+          </p>
+
+          <h5 class="card-title text-primary mt-4">Technology Stack</h5>
+          <ul class="list-unstyled">
+            <li><strong>Backend:</strong> Python (Flask Framework)</li>
+            <li><strong>Frontend:</strong> HTML, Bootstrap 5</li>
+            <li>
+              <strong>Logic Layer:</strong> Custom rule-based inference engine
+            </li>
+            <li>
+              <strong>Design Goals:</strong> Responsive UI, quick input,
+              reliable advice
+            </li>
+          </ul>
+
+          <h5 class="card-title text-primary mt-4">Purpose</h5>
+          <p class="card-text">
+            The app is intended to be a practical tool for workplaces, homes,
+            and schools — anywhere a first aid response may be needed while
+            waiting for professional help to arrive.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

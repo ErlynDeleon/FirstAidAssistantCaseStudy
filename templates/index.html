@@ -1,0 +1,51 @@
+{% extends 'base.html' %} {% block content %}
+<div class="container form-container mt-4">
+  <h2>First Aid Assistant</h2>
+  <form action="{{ url_for('result') }}" method="POST" autocomplete="off">
+    <div class="mb-3">
+      <label for="name">Name</label>
+      <input
+        type="text"
+        id="name"
+        class="form-control"
+        name="name"
+        placeholder="Enter your full name"
+        required
+      />
+    </div>
+    <div class="mb-3">
+      <label for="age">Age</label>
+      <input
+        type="number"
+        id="age"
+        class="form-control"
+        name="age"
+        placeholder="Enter your age"
+        min="1"
+        max="120"
+        required
+      />
+    </div>
+    <div class="mb-3">
+      <label for="gender">Gender</label>
+      <select id="gender" class="form-control" name="gender" required>
+        <option value="" disabled selected>Select gender</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label for="symptom">Symptom</label>
+      <select id="symptom" class="form-control" name="symptom" required>
+        <option value="" disabled selected>Select a symptom</option>
+        {% for symptom in symptoms %}
+        <option value="{{ symptom }}">{{ symptom.capitalize() }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary btn-submit">Get Advice</button>
+  </form>
+  <a href="{{ url_for('people') }}" class="btn-link">View All People</a>
+</div>
+{% endblock %}

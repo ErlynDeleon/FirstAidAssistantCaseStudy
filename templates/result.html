@@ -1,0 +1,34 @@
+{% extends "base.html" %} {% block title %}Result - First Aid Assistant{%
+endblock %} {% block content %}
+<div class="container result-container mt-5">
+  <h1 class="text-center result-title mb-4">🩺 First Aid Advice</h1>
+
+  {% if person.advice %}
+  <div class="card advice-card mx-auto">
+    <div class="card-body">
+      <h5 class="card-title text-capitalize symptom-title">
+        {{ person.symptom }}
+      </h5>
+      <p class="card-text info-text">
+        <strong>Name:</strong> {{ person.name }}<br />
+        <strong>Age:</strong> {{ person.age }}<br />
+        <strong>Gender:</strong> {{ person.gender }}
+      </p>
+      <hr />
+      <p class="card-text advice-text">{{ person.advice }}</p>
+    </div>
+  </div>
+  {% else %}
+  <div class="alert alert-warning text-center mt-4" role="alert">
+    😕 Sorry, advice for "<strong>{{ person.symptom }}</strong>" is not
+    available.
+  </div>
+  {% endif %}
+
+  <div class="text-center mt-4">
+    <a href="{{ url_for('home') }}" class="btn btn-outline-primary">
+      🔄 Try Another Symptom
+    </a>
+  </div>
+</div>
+{% endblock %}

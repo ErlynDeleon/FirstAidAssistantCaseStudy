@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Erlyn",
+        "age": "21",
+        "gender": "Female",
+        "symptom": "burn",
+        "advice": "Cool the burn under running water for 10 minutes. Cover with sterile non-fluffy dressing."
+    },
+    {
+        "name": "Maple",
+        "age": "3",
+        "gender": "Female",
+        "symptom": "choking",
+        "advice": "Encourage coughing. If choking persists, perform abdominal thrusts."
+    },
+    {
+        "name": "Pezzy",
+        "age": "3",
+        "gender": "Male",
+        "symptom": "cut",
+        "advice": "Clean the wound, apply pressure to stop bleeding, then cover with a bandage."
+    },
+    {
+        "name": "Tashi",
+        "age": "70",
+        "gender": "Female",
+        "symptom": "fracture",
+        "advice": "Immobilize the injured area. Do not attempt to straighten the limb. Apply a splint if trained, and seek medical help immediately."
+    },
+    {
+        "name": "Queen",
+        "age": "78",
+        "gender": "Female",
+        "symptom": "choking",
+        "advice": "Perform abdominal thrusts until the object is dislodged or help arrives."
+    },
+    {
+        "name": "Iki",
+        "age": "6",
+        "gender": "Male",
+        "symptom": "cut",
+        "advice": "Clean the wound, apply pressure to stop bleeding, then cover with a bandage."
+    },
+    {
+        "name": "Cloud",
+        "age": "8",
+        "gender": "Female",
+        "symptom": "cut",
+        "advice": "Clean the wound, apply pressure to stop bleeding, then cover with a bandage."
+    }
+]

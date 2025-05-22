@@ -1,0 +1,48 @@
+{
+  "choking": {
+    "infant": "Give 5 back blows followed by 5 chest thrusts. Do not perform abdominal thrusts on infants.",
+    "child": "Give abdominal thrusts if the child cannot speak, cry, or breathe.",
+    "adult": "Perform abdominal thrusts until the object is dislodged or help arrives."
+  },
+  "burn": {
+    "default": "Cool the burn under running water for 10 minutes. Cover with sterile dressing."
+  },
+  "cut": {
+    "default": "Clean the wound, apply pressure to stop bleeding, then cover with a bandage."
+  },
+  "fracture": {
+    "default": "Immobilize the injured area. Do not attempt to straighten the limb. Apply a splint if trained, and seek medical help immediately."
+  },
+  "bleeding": {
+    "default": "Apply direct pressure to the wound with a clean cloth. Raise the injured area if possible. Seek medical help if bleeding is severe."
+  },
+  "fever": {
+    "infant": "Seek medical advice immediately for infants under 3 months with fever. Keep the infant hydrated.",
+    "child": "Give age-appropriate fever-reducing medication and monitor. Keep child cool and hydrated.",
+    "adult": "Rest, stay hydrated, and use fever-reducing medication like acetaminophen if needed."
+  },
+  "sprain": {
+    "default": "Follow the R.I.C.E. method: Rest, Ice, Compression, Elevation. Avoid putting weight on the area."
+  },
+  "headache": {
+    "default": "Rest in a quiet, dark room. Drink water. Take a pain reliever if necessary. Seek help if severe or sudden."
+  },
+  "poisoning": {
+    "default": "Call emergency services or a poison control center immediately. Do not induce vomiting unless instructed by a professional."
+  },
+  "unconsciousness": {
+    "default": "Check responsiveness. Call emergency services. If not breathing, begin CPR. Place in recovery position if breathing resumes."
+  },
+  "nosebleed": {
+    "default": "Sit the person up and lean them forward. Pinch the soft part of the nose for 10 minutes. Do not tilt the head back."
+  },
+  "seizure": {
+    "default": "Do not restrain the person. Clear the area around them. Place something soft under their head. Call for help if it lasts more than 5 minutes."
+  },
+  "allergic reaction": {
+    "default": "If severe, use an epinephrine auto-injector and call emergency services. For mild reactions, use antihistamines."
+  },
+  "asthma attack": {
+    "default": "Help the person sit upright and use their inhaler. If no improvement, call emergency services."
+  }
+}
